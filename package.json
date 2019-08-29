@@ -2,10 +2,7 @@
   "name": "test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thegi01/node-test.git"
@@ -17,6 +14,12 @@
   },
   "homepage": "https://github.com/thegi01/node-test#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "start": "node app",
+    "sass": "node-sass --watch --output-style compressed --output view/css --source-map true --source-map-contents view/scss",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

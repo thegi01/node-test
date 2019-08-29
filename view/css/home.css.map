@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "home.css",
+	"sources": [
+		"../scss/home.scss"
+	],
+	"sourcesContent": [
+		".text {\n  margin-top: 10px;\n  font-size: 12px;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,AAAC,CACJ,UAAU,CAAE,IAAI,CAChB,SAAS,CAAE,IAAI,CAChB"
+}

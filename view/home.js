@@ -1,5 +1,5 @@
 let isClicked = false;
-function handleClick() {
-  isClicked = true;
-  console.log("button click", isClicked);
+function handleClick(event) {
+  event.target.disabled = true;
+  testId.textContent = "clicked";
 }
