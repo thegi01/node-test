@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "node app",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass --watch --output-style compressed --output view/css --source-map true --source-map-contents view/scss"
+    "sass": "node-sass --watch --output-style compressed --output view/css --source-map true --source-map-contents view/scss",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
